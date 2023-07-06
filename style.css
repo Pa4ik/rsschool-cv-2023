@@ -1,5 +1,41 @@
 
 body {
- 
+  box-sizing: border-box;
+  background-color: #ffffff;
 }
 
+ .container-centre{
+  margin: 20px auto;
+  width: 1280px;
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: #ede2d3;
+  box-shadow: 15px 15px 40px -1px rgba(0, 0, 0, 0.01);
+}
+
+nav {
+  display: block;
+}
+
+ .nav-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #b3a396;
+ }
+
+ .two-container {
+  display: flex;
+}
+
+.left-container {
+  width: 40%;
+  background-color: #b3a396;
+
+} 
+
+.right-container{
+ width: 60%;  
+ 
+}
