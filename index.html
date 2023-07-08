@@ -4,9 +4,125 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="veiwport" content="width=device=width , initial=scale=1.0">
-     <title>first-task</title>
-</head>
+     <title>CV</title>
+     <link rel="stylesheet" href="style.css" >
 <body>
-    <p>Hey GitHub</p>
+  <div class="container-centre">
+    <nav class="nav-akt">
+        <ul class="nav-list">
+         <li class="nav-button"><a href="#about-me">About me</a></li>
+         <li class="nav-button"><a href="#contact">Contact</a></li>
+         <li class="nav-button"><a href="#skills">Skills</a></li>
+         <li class="nav-button"><a href="#social-media">Social</a></li>
+         <li class="nav-button"><a href="#LANGUAGES">Languages</a></li>
+         <li class="nav-button"><a href="#Education">Education</a></li>
+         <li class="nav-button"><a href="#my-projects">My projects</a></li>
+         <li class="nav-button"><a href="#code">Code</a></li> 
+       </ul>      
+    </nav>
+    <div class="two-container">
+        <div class="left-container">
+           <header>
+            <img src="image/Portrait.jpg" alt="Portrait" width="200" height="240">  
+          </header>
+          <main>
+            <section class="contact" id="contact">
+              <h3>Contact</h3>
+               <ul>
+                  <li>
+                    <img src="icon/phone.png" alt="phone" width="25" height="25">
+                    <span>+375333168215</span>
+                  </li>
+                  <li>
+                    <img src="icon/mail.png" alt="mail" width="25" height="25">
+                    <a href="malto:makspohp123@gmail.com">makspohp123@gmail.com</a>
+                  </li>
+                  <li>
+                    <img src="icon/telegram.png" alt="telegram" width="25" height="25">
+                    <a href="https://t.me/pa4ikk" target="_blank">@Pa4ikk</a>
+                  </li>
+                  <li>
+                    <img src="icon/discord.png" alt="discord" width="25" height="25">
+                    <span>Pa4ik#3288</span>
+                  </li>
+               </ul>
+          </section>
+          <section class="skills" id="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>JavaScript (Basic)</li>
+                <li>HTML5 (Basic)</li>
+                <li>CSS3 (Basic)</li>
+                <li>Git (Basic)</li>
+                <li>VS Code (Basic)</li>
+            </ul>
+          </section>
+          <section class="LANGUAGES" id="LANGUAGES">
+            <h3>Languages</h3>
+             <ul>
+                 <li>Russian (Native)</li>
+                 <Li>English (A1-A2)</Li>
+             </ul>
+          </section>
+          <section class="social-media" id="social-media">
+            <h3>Social media</h3>
+             <ul>
+              <li><img src="icon/instagram.png" alt="instagram" width="30" height="25" >
+                <a href="https://www.instagram.com/pa4ik/" target="_blank">Instagram</a>
+              </li>
+              <li><img src="icon/twitter.png" alt="twitter" width="25" height="25" >
+                <a href="https://twitter.com/Pa4ikk" target="_blank">Twitter</a>
+              </li>
+              <li><img src="icon/steam.png" alt="steam" width="25" height="25" >
+                <a href="https://steamcommunity.com/id/Pa4ik/" target="_blank">Steam</a>
+              </li>
+             </ul>
+          </section>
+         </main>
+        </div>
+    <article class="right-container">
+        <h1>Maxim Pachuzheuski</h1>
+        <section class="about-me" id="about-me">
+            <h3>About me</h3>
+            <p class="About-text">I am 25 years old . And I decided to change my life and profession.</p>
+        </section>
+        <section class="Education" id="Education">
+            <h3>Education</h3>
+            <ul>
+                <li>СГК</li>
+                <li>rs.school JS/FE ( In progress) </li>
+            </ul>
+        </section>
+        <section class="code" id="code">
+            <h3>Code</h3>
+            <pre>
+                <code>
+                    function checkParent (src, dest) {
+                        while (src != null) {
+                          if (src.tagName == dest) return src
+                            src = src.parentElement
+                          }
+                        return null
+                      }
+                </code>   
+            </pre>
+        </section>
+        <section class="my-projects" id="my-projects">
+          <h3>My projects</h3>
+          <p class="myproj">in progress...</p>
+        </section>
+    </article>
+     </div> 
+     <footer>
+        <a class="my-gh" href="https://github.com/Pa4ik" target="_blank">
+        <img src="icon/git-h.png" alt="git-hub" width="30" height="30" >
+        <p>My GitHub</p>
+        </a>
+        <p class="years23">ⓒ2023</p>
+        <a class="RS-school" href="https://rs.school/js/" target="_blank">
+        <img src="icon/rs-logo.png" alt="RS-school-logo" width="160" height="70" >        
+        </a>
+      </footer>
+    </div>        
 </body>
 </html>
