@@ -2,6 +2,10 @@
 body {
   box-sizing: border-box;
   background-color: #ffffff;
+  width: 100%;
+  min-width: 1024px;
+  max-width: 1920px;
+
 }
 
  .container-centre{
@@ -26,7 +30,7 @@ nav {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  background-color: #bf99d6;
+  background-color: #9ea1a4;
   border-radius: 25px 25px 0px 0px;
   margin: 0px;
   
@@ -42,13 +46,14 @@ nav {
  }
 
  a{
-  text-decoration:none;
+  
   color: #0a0101
 }
 
 a:hover {
   color: #fff; 
   background: rgb(2, 2, 29);
+  border-radius: 5px;
   
 }
 
@@ -58,7 +63,7 @@ a:hover {
 
 .left-container {
   width: 40%;
-  background-color: #bf99d6;
+  background-color: #9ea1a4;
 
 } 
 
@@ -78,12 +83,43 @@ h3{
   background-color: #f3d648;
 }
 
-
-
-
-
+.contact {
+  list-style: none;
+  justify-content: space-around;
+  font-family: 'Lato', sans-serif;
+}
 
 .right-container{
- width: 60%;  
- 
+ width: 60%;   
 }
+
+h2{
+  text-align: center;
+  font-size: 50px;
+  padding: 30px;
+}
+
+pre{
+  border: 3px solid #030303;
+}
+
+footer{
+  display: flex;
+  background-color: #9ea1a4;
+  border-radius: 0px 0px 25px 25px;
+}
+
+ .my-gh{
+  display: flex;
+  margin: 5px 10px 5px 25px;
+ }
+
+ .years23{
+  margin: 27px 10px 5px 25px;
+ }
+
+ .RS-school{
+  display: flex;
+  margin: 5px 10px 5px 25px;
+
+ }
